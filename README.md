@@ -22,3 +22,5 @@ To use this template you will need to plug in the following:
   * Description of image for screen readers (Max 420 characters)
 * Favicons
   * Image (512x512)
+* Navbar
+  * Heading 1 (Brand Name)
