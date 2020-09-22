@@ -3,6 +3,7 @@
 ## Content Required
 
 To use this template you will need to plug in the following:
+(Some content is optional and may be left as is at your discretion)
 * SEO info
   * Title (-60 characters)
   * Description (50-160 character)
@@ -24,3 +25,16 @@ To use this template you will need to plug in the following:
   * Image (512x512)
 * Navbar
   * Heading 1 (Brand Name)
+* Top Section
+  * h2 (i.e. page title)
+  * p (i.e. welcome message, slogan)
+* Services Section
+  * h3 (e.g. "Our Services")
+* About Section
+  * h3 (e.g. "History and Mission")
+* Staff Section
+  * h3 (e.g. "Dedicated Staff")
+* Map Section
+  * h3 (e.g. "Location")
+* Contact Section
+  * h3 (e.g. "Contact Info")
