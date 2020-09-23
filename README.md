@@ -38,3 +38,7 @@ To use this template you will need to plug in the following:
   * h3 (e.g. "Location")
 * Contact Section
   * h3 (e.g. "Contact Info")
+* Footer
+  * Copyright Holder Name(s)
+  * Copyright Date
+  * Copyright reserved rights
