@@ -35,7 +35,7 @@ To use this template you will need to plug in the following:
 * Staff Section
   * h3 (e.g. "Dedicated Staff")
 * Map Section
-  * h3 (e.g. "Location")
+  * Embeded Google Map iframe (your address)
 * Contact Section
   * h3 (e.g. "Contact Info")
 * Footer
