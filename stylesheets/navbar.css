@@ -58,6 +58,12 @@ nav li a {
     background: rgba(0, 0, 0, .5);
 }
 
+@media screen and (max-width: 375px) {
+    h1 {
+        font-size: 1.25rem;
+    }
+}
+
 @media screen and (max-width: 678px) {
     
     nav {

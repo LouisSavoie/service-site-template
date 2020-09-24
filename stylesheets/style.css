@@ -33,9 +33,21 @@ section {
 }
 
 #top p {
-    width: 50%;
+    width: 60%;
     margin-top: 0px;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 704px) {
+    #top p {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 483px) {
+    #top p {
+        width: 100%;
+    }
 }
 
 /* SERVICES SECTION */
@@ -99,7 +111,7 @@ section {
 /* FOOTER */
 
 footer {
-    overflow: auto;
+    padding: 16px;
     background: rgb(0, 0, 0);
     text-align: center;
 }
