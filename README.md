@@ -38,6 +38,9 @@ To use this template you will need to plug in the following:
   * Embeded Google Map iframe (your address)
 * Contact Section
   * h3 (e.g. "Contact Info")
+  * Physical Address (with Google Maps link)
+  * Email Address
+  * Phone Number
 * Footer
   * Copyright Holder Name(s)
   * Copyright Date

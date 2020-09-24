@@ -4,6 +4,7 @@ body {
 }
 
 a {
+    color: lightblue;
     text-decoration: none;
 }
 
@@ -16,7 +17,6 @@ h2, h3, h4 {
 /* -------- */
 
 section {
-    min-height: 160px;
     padding: 70px 24px;
 }
 
@@ -106,6 +106,25 @@ section {
 
 #contact {
     background: rgb(155, 155, 155);
+    text-align: center;
+}
+
+#contact #addresses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#contact address {
+    padding: 0px 16px;
+}
+
+#contact h4 {
+    margin: 16px 0px 0px 0px;
+}
+
+#contact a {
+    margin: 0px;
 }
 
 /* FOOTER */
