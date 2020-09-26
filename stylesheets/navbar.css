@@ -1,0 +1,96 @@
+/* NAVBAR */
+
+header {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    transition: all 500ms;
+}
+
+.nav-colored {
+    background: rgba(0, 0, 0, .5);
+}
+
+.nav-transparent {
+    background: none;
+}
+
+h1 {
+    margin: 0px 0px 0px 24px;
+    color: white;
+}
+
+nav {
+    margin: 0px;
+    padding: 0px 16px;
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a:hover {
+    background: rgba(0, 0, 0, .5);
+}
+
+nav li a {
+    padding: 25px 16px;
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-toggler {
+    padding: 25px 40px;
+    display: none;
+    text-align: center;
+}
+
+#nav-toggler:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, .5);
+}
+
+@media screen and (max-width: 375px) {
+    h1 {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    
+    nav {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 70px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        transition: all 500ms;
+    }
+
+    .nav-active {
+        right: 0;
+        display: inherit;
+    }
+
+    nav li {
+        text-align: center;
+    }
+
+    nav li a {
+        padding: 25px 32px;
+    }
+
+    #nav-toggler {
+        display: block;
+    }
+}
