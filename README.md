@@ -34,6 +34,9 @@ To use this template you will need to plug in the following:
   * h3 (e.g. "History and Mission")
 * Staff Section
   * h3 (e.g. "Dedicated Staff")
+  * Staff Members Names
+  * Staff Members images (400x400, images/name.webp)
+  * Staff Members Titles
 * Map Section
   * Embeded Google Map iframe (your address)
 * Contact Section

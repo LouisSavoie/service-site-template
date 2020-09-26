@@ -89,6 +89,27 @@ section {
 
 #staff {
     background: rgb(105, 105, 105);
+    text-align: center;
+}
+
+#staff #staff-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#staff .staff-member {
+    padding: 0px 12px;
+}
+
+#staff img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+#staff p {
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }
 
 /* MAP SECTION */
