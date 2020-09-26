@@ -54,6 +54,28 @@ section {
 
 #services {
     background: rgb(205, 205, 205);
+    text-align: center;
+}
+
+#services #services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#services .service-card {
+    width: 200px;
+    padding: 16px;
+}
+
+#services img {
+    height: 150px;
+}
+
+#services p {
+    width: 100%;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }
 
 /* ABOUT SECTION */
@@ -100,7 +122,7 @@ section {
 }
 
 #staff .staff-member {
-    padding: 0px 12px;
+    padding: 0px 16px;
 }
 
 #staff img {

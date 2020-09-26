@@ -25,11 +25,16 @@ To use this template you will need to plug in the following:
   * Image (512x512)
 * Navbar
   * Heading 1 (Brand Name)
+* All Sections
+  * Background Colors or Images
 * Top Section
   * h2 (i.e. page title)
   * p (i.e. welcome message, slogan)
 * Services Section
   * h3 (e.g. "Our Services")
+  * Services Names
+  * Services images (400x400, images/name.webp)
+  * Services Descroptions
 * About Section
   * h3 (e.g. "History and Mission")
 * Staff Section
