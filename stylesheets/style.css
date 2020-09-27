@@ -12,6 +12,20 @@ h2, h3, h4 {
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }
 
+h2 {
+    margin-top: auto;
+    font-size: 48px;
+}
+
+h3 {
+    margin-top: 0px;
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
 /* -------- */
 /* SECTIONS */
 /* -------- */
@@ -20,10 +34,15 @@ section {
     padding: 70px 24px;
 }
 
+.section-anchor {
+    height: 70px;
+}
+
 /* TOP SECTION */
 
 #top {
-    padding: 140px 24px 70px 24px;
+    height: 100vh;
+    padding: 0px 24px 0px 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,21 +71,30 @@ section {
 
 /* SERVICES SECTION */
 
+#services-anchor {
+    margin-top: auto;
+}
+
 #services {
+    padding: 70px 24px 0px 24px;
     background: rgb(205, 205, 205);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #services #services-container {
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 #services .service-card {
-    width: 200px;
-    padding: 16px;
+    width: 150px;
+    padding: 0px 16px;
 }
 
 #services img {
@@ -81,35 +109,47 @@ section {
 /* ABOUT SECTION */
 
 #about {
+    padding: 70px 24px 0px 24px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: rgb(155, 155, 155);
 }
 
-#about div {
-    width: 75%;
-    padding: 16px;
+#about #about-area {
+    width: 70%;
+    padding: 32px;
     background: rgba(0, 0, 0, .25);
 }
 
-#about div h3 {
+#about #about-area h3 {
     margin-top: 0px;
 }
 
-#about div p {
+#about #about-area p {
+    font-size: 20px;
+    line-height: 2;
     margin-bottom: 0px;
 }
 
 @media screen and (max-width: 678px) {
-    #about div {
+    #about #about-area {
         width: initial;
+        padding: 16px;
     }
+
+    #about #about-area p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 0px;
+    }    
 }
 
 /* STAFF SECTION */
 
 #staff {
+    padding: 70px 24px 0px 24px;
     background: rgb(105, 105, 105);
     text-align: center;
 }
@@ -137,8 +177,8 @@ section {
 /* MAP SECTION */
 
 #map {
-    padding: 70px 0px;
-    background: rgb(55, 55, 55);
+    height: 75vh;
+    padding: 0px;
 }
 
 #map h3 {
