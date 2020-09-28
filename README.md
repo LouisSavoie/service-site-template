@@ -25,23 +25,25 @@ To use this template you will need to plug in the following:
   * Image (512x512)
 * Navbar
   * Heading 1 (Brand Name)
-* All Sections
-  * Background Colors or Images
 * Top Section
   * h2 (i.e. page title)
   * p (i.e. welcome message, slogan)
+  * Background Image (16:9 aspect, images/topsection.webp)
 * Services Section
   * h3 (e.g. "Our Services")
   * Services Names
   * Services images (400x400, images/name.webp)
   * Services Descroptions
+  * Background Color (if dark, change font colors to light colors)
 * About Section
   * h3 (e.g. "History and Mission")
+  * Background Image (16:9 aspect, images/aboutsection.webp)
 * Staff Section
   * h3 (e.g. "Dedicated Staff")
   * Staff Members Names
   * Staff Members images (400x400, images/name.webp)
   * Staff Members Titles
+  * Background Color (if dark, change font colors to light colors)
 * Map Section
   * Embeded Google Map iframe (your address)
 * Contact Section
@@ -49,6 +51,7 @@ To use this template you will need to plug in the following:
   * Physical Address (with Google Maps link)
   * Email Address
   * Phone Number
+  * Background Color (if dark, change font colors to light colors)
 * Footer
   * Copyright Holder Name(s)
   * Copyright Date
