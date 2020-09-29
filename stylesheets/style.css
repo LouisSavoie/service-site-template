@@ -8,10 +8,6 @@ a {
     text-decoration: none;
 }
 
-h2, h3, h4, p {
-    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
-}
-
 h2 {
     margin-top: auto;
     font-size: 48px;
@@ -37,7 +33,7 @@ section {
 }
 
 .section-anchor {
-    height: 70px;
+    height: 69px;
 }
 
 /* TOP SECTION */
@@ -181,6 +177,74 @@ section {
 #staff img {
     height: 150px;
     border-radius: 50%;
+}
+
+/* REVIEWS */
+
+#reviews {
+    padding: 70px 24px 0px 24px;
+    background-image: url(/images/reviewssection.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+#reviews h3 {
+    text-align: center;
+}
+
+#reviews #reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#reviews #reviews-container .review-card {
+    margin: 8px;
+    padding: 16px;
+    display: flex;
+    flex-wrap: nowrap;
+    background: rgba(0, 0, 0, .5);
+}
+
+#reviews img {
+    width: 50%;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+#reviews #reviews-container .review-card .review-text {
+    padding: 0px 0px 0px 16px;
+    max-width: 350px;
+}
+
+#reviews h4 {
+    margin-top: 0px;
+}
+
+#reviews p {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 400px) {
+    #reviews #reviews-container .review-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #reviews img {
+        width: 100%;
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    #reviews #reviews-container .review-card .review-text {
+        padding: 16px 0px 0px 0px;
+        max-width: 250px;
+    }
 }
 
 /* MAP SECTION */

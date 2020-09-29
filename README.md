@@ -32,7 +32,7 @@ To use this template you will need to plug in the following:
 * Services Section
   * h3 (e.g. "Our Services")
   * Services Names
-  * Services images (400x400, images/name.webp)
+  * Services Images (400x400, images/name.webp)
   * Services Descroptions
   * Background Color (if dark, change font colors to light colors)
 * About Section
@@ -44,6 +44,11 @@ To use this template you will need to plug in the following:
   * Staff Members images (400x400, images/name.webp)
   * Staff Members Titles
   * Background Color (if dark, change font colors to light colors)
+* Reviews Section
+  * h3 (e.g. "Customer Reviews")
+  * Customer Images (400x400, images/review1.webp)
+  * Customer Name or Review Title (h4)
+  * Review Text (Quote from Customer)
 * Map Section
   * Embeded Google Map iframe (your address)
 * Contact Section
