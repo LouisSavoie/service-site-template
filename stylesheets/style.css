@@ -24,6 +24,33 @@ h4 {
     font-size: 24px;
 }
 
+/* TOPLINK */
+
+#toplink {
+    height: 48px;
+    width: 48px;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+#toplink a {
+    font-size: 48px;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+.unscrolled {
+    display: none;
+}
+
+.scrolled {
+    display: unset;
+}
+
 /* -------- */
 /* SECTIONS */
 /* -------- */
