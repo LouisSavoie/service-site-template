@@ -309,6 +309,16 @@ section {
     margin: 0px;
 }
 
+#contact #social {
+    padding: 32px 0px 0px 0px;
+}
+
+#contact #social svg {
+    margin: 8px;
+    font-size: 32px;
+    color: black;
+}
+
 /* FOOTER */
 
 footer {

@@ -65,7 +65,7 @@ nav li a {
     }
 }
 
-@media screen and (max-width: 678px) {
+@media screen and (max-width: 720px) {
     
     nav {
         margin: 0;
