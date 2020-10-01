@@ -29,6 +29,8 @@
         <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
         <link rel="manifest" href="favicon_io/site.webmanifest">
+        <!-- FONT AWESOME CDN -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
         <!-- CUSTOM CSS -->
         <link rel="stylesheet" href="stylesheets/style.css">
         <link rel="stylesheet" href="stylesheets/navbar.css">
@@ -37,95 +39,136 @@
         <header>
             <a href="#"><h1>Lorem Ipsom</h1></a>
             <nav>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#staff">Staff</a></li>
-                <li><a href="#map">Map</a></li>
+                <li><a href="#services-anchor">Services</a></li>
+                <li><a href="#about-anchor">About</a></li>
+                <li><a href="#staff-anchor">Staff</a></li>
+                <li><a href="#reviews-anchor">Review</a></li>
+                <li><a href="#map-anchor">Map</a></li>
                 <li><a href="#contact">Contact</a></li>
             </nav>
             <div id="nav-toggler">
                 Menu
             </div>
         </header>
+        <div id="toplink" class="off">
+            <a href="#">^</a>
+        </div>
         <main>
             <section id="top">
                 <h2>Page Title or Tagline</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptate, sequi voluptatem aliquam maxime.</p>
+                <div id="services-anchor" class="section-anchor"></div>
             </section>
+            <div id="topinfo">
+                <a href="https://goo.gl/maps/mD5AArwQzkddqWMGA" target="blank"><i class="fas fa-map-marked-alt"></i></a>
+                <a href="mailto:contact@loremipsom.com"><i class="fas fa-paper-plane"></i></a>
+                <a href="tel:555-555-5555"><i class="fas fa-phone"></i></i></a>
+            </div>
             <section id="services">
                 <h3>Services</h3>
                 <div id="services-container">
                     <div class="service-card">
                         <h4>Service</h4>
-                        <img src="images/service.webp" alt="Service Picture">
+                        <img src="images/service1.webp" alt="Service Picture">
                         <p>Service description details for your guests to get an idea of what you offer.</p>
                     </div>
                     <div class="service-card">
                         <h4>Service</h4>
-                        <img src="images/service.webp" alt="Service Picture">
+                        <img src="images/service2.webp" alt="Service Picture">
                         <p>Service description details for your guests to get an idea of what you offer.</p>
                     </div>
                     <div class="service-card">
                         <h4>Service</h4>
-                        <img src="images/service.webp" alt="Service Picture">
+                        <img src="images/service3.webp" alt="Service Picture">
                         <p>Service description details for your guests to get an idea of what you offer.</p>
                     </div>
                     <div class="service-card">
                         <h4>Service</h4>
-                        <img src="images/service.webp" alt="Service Picture">
+                        <img src="images/service4.webp" alt="Service Picture">
                         <p>Service description details for your guests to get an idea of what you offer.</p>
                     </div>
                     <div class="service-card">
                         <h4>Service</h4>
-                        <img src="images/service.webp" alt="Service Picture">
+                        <img src="images/service5.webp" alt="Service Picture">
                         <p>Service description details for your guests to get an idea of what you offer.</p>
                     </div>
                     <div class="service-card">
                         <h4>Service</h4>
-                        <img src="images/service.webp" alt="Service Picture">
+                        <img src="images/service6.webp" alt="Service Picture">
                         <p>Service description details for your guests to get an idea of what you offer.</p>
                     </div>
                 </div>
+                <div id="about-anchor" class="section-anchor"></div>
             </section>
             <section id="about">
-                <div>
+                <div id="about-area">
                     <h3>About</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores enim quae reprehenderit facere nostrum sit dicta minima, dolorem quia, obcaecati aspernatur provident error, officiis debitis ipsa? Odio, vel rerum. Recusandae voluptatum obcaecati sunt nostrum in velit adipisci magnam mollitia incidunt! Adipisci delectus ullam nihil quibusdam ducimus totam nisi impedit repellat excepturi reiciendis, assumenda voluptatum minima animi recusandae cupiditate veniam officia nobis? Eaque, corrupti itaque inventore sunt facilis necessitatibus accusantium, odit accusamus repudiandae pariatur consectetur laudantium possimus atque! Cum tempora, quaerat autem eveniet atque odio quidem nulla odit culpa. Cumque labore aut magnam quisquam, accusamus fugiat eius sint quaerat eos distinctio.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores enim quae reprehenderit facere nostrum sit dicta minima, dolorem quia, obcaecati aspernatur provident error, officiis debitis ipsa? Odio, vel rerum. Recusandae voluptatum obcaecati sunt nostrum in velit adipisci magnam mollitia incidunt! Adipisci delectus ullam nihil quibusdam ducimus totam nisi impedit repellat excepturi reiciendis, assumenda voluptatum minima animi recusandae cupiditate veniam officia nobis?<br>Eaque, corrupti itaque inventore sunt facilis necessitatibus accusantium, odit accusamus repudiandae pariatur consectetur laudantium possimus atque! Cum tempora, quaerat autem eveniet atque odio quidem nulla odit culpa. Cumque labore aut magnam quisquam, accusamus fugiat eius sint quaerat eos distinctio.</p>
                 </div>
+                <div id="staff-anchor" class="section-anchor"></div>
             </section>
             <section id="staff">
                 <h3>Staff</h3>
                 <div id="staff-container">
                     <div class="staff-member">
                         <h4>Name</h4>
-                        <img src="images/name.webp" alt="Picture of Name">
+                        <img src="images/name1.webp" alt="Picture of Name">
                         <p>Position</p>
                     </div>
                     <div class="staff-member">
                         <h4>Name</h4>
-                        <img src="images/name.webp" alt="Picture of Name">
+                        <img src="images/name2.webp" alt="Picture of Name">
                         <p>Position</p>
                     </div>
                     <div class="staff-member">
                         <h4>Name</h4>
-                        <img src="images/name.webp" alt="Picture of Name">
+                        <img src="images/name3.webp" alt="Picture of Name">
                         <p>Position</p>
                     </div>
                     <div class="staff-member">
                         <h4>Name</h4>
-                        <img src="images/name.webp" alt="Picture of Name">
+                        <img src="images/name4.webp" alt="Picture of Name">
                         <p>Position</p>
                     </div>
                     <div class="staff-member">
                         <h4>Name</h4>
-                        <img src="images/name.webp" alt="Picture of Name">
+                        <img src="images/name5.webp" alt="Picture of Name">
                         <p>Position</p>
                     </div>
                 </div>
+                <div id="reviews-anchor" class="section-anchor"></div>
+            </section>
+            <section id="reviews">
+                <h3>Reviews</h3>
+                <div id="reviews-container">
+                    <div class="review-card">
+                        <img src="images/review1.webp" alt="Reviewer Picture">
+                        <div class="review-text">
+                            <h4>Jane Smith</h4>
+                            <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores provident a nesciunt consectetur perferendis numquam, ad amet explicabo vero in.</em></p>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <img src="images/review2.webp" alt="Reviewer Picture">
+                        <div class="review-text">
+                            <h4>Joe Smith</h4>
+                            <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores provident a nesciunt consectetur perferendis numquam, ad amet explicabo vero in.</em></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="map-anchor" class="section-anchor"></div>
             </section>
             <section id="map">
                 <h3>Map</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d792.1591274120267!2d-122.08463552965283!3d37.422065598745306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba02425dad8f%3A0x6c296c66619367e0!2sGoogleplex!5e0!3m2!1sen!2sus!4v1600898037145!5m2!1sen!2sus" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen="false" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d792.1591274120267!2d-122.08463552965283!3d37.422065598745306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba02425dad8f%3A0x6c296c66619367e0!2sGoogleplex!5e0!3m2!1sen!2sus!4v1600898037145!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="100%" 
+                    frameborder="0" 
+                    style="border:0;" 
+                    allowfullscreen="false" 
+                    aria-hidden="false" 
+                    tabindex="0">
+                </iframe>
             </section>
             <section id="contact">
                 <h3>Contact</h3>
@@ -149,12 +192,23 @@
                         </address>
                     </div>
                 </div>
+                <div id="social">
+                    <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a href="http://www.snapchat.com"><i class="fab fa-snapchat-ghost"></i></a>
+                    <a href="http://www.tiktok.com"><i class="fab fa-tiktok"></i></a>
+                    <a href="http://www.tumblr.com"><i class="fab fa-tumblr"></i></a>
+                    <a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    <a href="http://www.twith.com"><i class="fab fa-twitch"></i></a>
+                    <a href="http://www.linkenin.com"><i class="fab fa-linkedin-in"></i></a>
+                </div>
             </section>
             <footer>
                 <p>Copyright© Lorem Ipsom 2020. All rights reserved.</p>
             </footer>
         </main>
         <!-- CUSTOM JAVASCRIPT -->
-        <script src="/javascript/navbar.js"></script>
+        <script src="/javascript/script.js"></script>
     </body>
 </html>

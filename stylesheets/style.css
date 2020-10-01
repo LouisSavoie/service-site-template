@@ -1,14 +1,69 @@
 body {
     margin: 0px;
-    color: white;
+    color: black;
 }
 
 a {
-    color: lightblue;
+    color: rgb(0, 0, 175);
     text-decoration: none;
 }
 
-h2, h3, h4 {
+h2 {
+    margin-top: auto;
+    font-size: 48px;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+h3 {
+    margin-top: 0px;
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.on {
+    display: unset;
+}
+
+.off {
+    display: none;
+}
+
+/* TOPLINK */
+
+#toplink {
+    height: 48px;
+    width: 48px;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+#toplink a {
+    font-size: 48px;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+/* TOP INFO */
+
+#topinfo {
+    width: 100vw;
+    position: fixed;
+    bottom: 8px;
+    text-align: center;
+}
+
+#topinfo a {
+    padding: 16px;
+    font-size: 32px;
+    color: white;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }
 
@@ -20,21 +75,32 @@ section {
     padding: 70px 24px;
 }
 
+.section-anchor {
+    height: 69px;
+}
+
 /* TOP SECTION */
 
 #top {
-    padding: 140px 24px 70px 24px;
+    height: 100vh;
+    padding: 0px 24px 0px 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: rgb(255, 255, 255);
+    background-image: url(/images/topsection.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     text-align: center;
 }
 
 #top p {
     width: 60%;
     margin-top: 0px;
+    font-size: 20px;
+    color: white;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }
 
@@ -52,21 +118,30 @@ section {
 
 /* SERVICES SECTION */
 
+#services-anchor {
+    margin-top: auto;
+}
+
 #services {
-    background: rgb(205, 205, 205);
+    padding: 70px 24px 0px 24px;
+    background: rgb(255, 255, 255);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #services #services-container {
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 #services .service-card {
-    width: 200px;
-    padding: 16px;
+    width: 150px;
+    padding: 0px 16px;
 }
 
 #services img {
@@ -75,42 +150,59 @@ section {
 
 #services p {
     width: 100%;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }
 
 /* ABOUT SECTION */
 
 #about {
+    padding: 70px 24px 0px 24px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(155, 155, 155);
+    background-image: url(/images/aboutsection.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-#about div {
-    width: 75%;
-    padding: 16px;
-    background: rgba(0, 0, 0, .25);
+#about #about-area {
+    width: 70%;
+    padding: 32px;
+    background: rgba(0, 0, 0, .5);
 }
 
-#about div h3 {
+#about #about-area h3 {
     margin-top: 0px;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }
 
-#about div p {
+#about #about-area p {
     margin-bottom: 0px;
+    color: white;
+    font-size: 20px;
+    line-height: 2;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }
 
 @media screen and (max-width: 678px) {
-    #about div {
+    #about #about-area {
         width: initial;
+        padding: 16px;
     }
+
+    #about #about-area p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 0px;
+    }    
 }
 
 /* STAFF SECTION */
 
 #staff {
-    background: rgb(105, 105, 105);
+    padding: 70px 24px 0px 24px;
     text-align: center;
 }
 
@@ -130,15 +222,79 @@ section {
     border-radius: 50%;
 }
 
-#staff p {
+/* REVIEWS */
+
+#reviews {
+    padding: 70px 24px 0px 24px;
+    background-image: url(/images/reviewssection.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+#reviews h3 {
+    text-align: center;
+}
+
+#reviews #reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#reviews #reviews-container .review-card {
+    margin: 8px;
+    padding: 16px;
+    display: flex;
+    flex-wrap: nowrap;
+    background: rgba(0, 0, 0, .5);
+}
+
+#reviews img {
+    width: 50%;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+#reviews #reviews-container .review-card .review-text {
+    padding: 0px 0px 0px 16px;
+    max-width: 350px;
+}
+
+#reviews h4 {
+    margin-top: 0px;
+}
+
+#reviews p {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 400px) {
+    #reviews #reviews-container .review-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #reviews img {
+        width: 100%;
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    #reviews #reviews-container .review-card .review-text {
+        padding: 16px 0px 0px 0px;
+        max-width: 250px;
+    }
 }
 
 /* MAP SECTION */
 
 #map {
-    padding: 70px 0px;
-    background: rgb(55, 55, 55);
+    height: 75vh;
+    padding: 0px;
 }
 
 #map h3 {
@@ -148,7 +304,6 @@ section {
 /* CONTACT SECTION */
 
 #contact {
-    background: rgb(155, 155, 155);
     text-align: center;
 }
 
@@ -170,10 +325,25 @@ section {
     margin: 0px;
 }
 
+#contact #social {
+    padding: 32px 0px 0px 0px;
+}
+
+#contact #social a i {
+    margin: 8px;
+    font-size: 32px;
+    color: black;
+}
+
 /* FOOTER */
 
 footer {
     padding: 16px;
     background: rgb(0, 0, 0);
     text-align: center;
+}
+
+footer p {
+    color: white;
+    text-shadow: none;
 }
