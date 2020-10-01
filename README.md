@@ -57,6 +57,8 @@ To use this template you will need to plug in the following:
   * Email Address
   * Phone Number
   * Background Color (if dark, change font colors to light colors)
+  * Social Media Site Link Adresses
+  * (Turn off ununsed Links by adding 'off' to class list)
 * Footer
   * Copyright Holder Name(s)
   * Copyright Date
