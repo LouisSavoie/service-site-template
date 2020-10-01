@@ -3,6 +3,7 @@ const toggler = document.querySelector('#nav-toggler');
 const nav = document.querySelector('nav');
 const navbar = document.querySelector('header');
 const toplink = document.querySelector('#toplink');
+const topinfo = document.querySelector('#topinfo');
 
 // NAV TOGGLE
 function toggleNav() {
@@ -22,8 +23,11 @@ window.onscroll = function () {
         navbar.classList.add("nav-colored");
         navbar.classList.remove("nav-transparent");
         // TOPLINK DISPLAY
-        toplink.classList.remove("unscrolled");
-        toplink.classList.add("scrolled");
+        toplink.classList.remove("off");
+        toplink.classList.add("on");
+        // TOPINFO DISPLAY
+        topinfo.classList.remove("on");
+        topinfo.classList.add("off");
     } 
     // SCROLL TO TOP
     else {
@@ -31,7 +35,10 @@ window.onscroll = function () {
         navbar.classList.add("nav-transparent");
         navbar.classList.remove("nav-colored");
         // TOPLINK DISPLAY NONE
-        toplink.classList.add("unscrolled");
-        toplink.classList.remove("scrolled");
+        toplink.classList.add("off");
+        toplink.classList.remove("on");
+        // TOPINFO DISPLAY NONE
+        topinfo.classList.add("on");
+        topinfo.classList.remove("off");
     }
 };

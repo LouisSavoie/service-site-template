@@ -25,6 +25,8 @@ To use this template you will need to plug in the following:
   * Image (512x512)
 * Navbar
   * Heading 1 (Brand Name)
+* Topinfo
+  * Address, Email, Phone (Same as Contact Section)
 * Top Section
   * h2 (i.e. page title)
   * p (i.e. welcome message, slogan)
@@ -53,9 +55,9 @@ To use this template you will need to plug in the following:
   * Embeded Google Map iframe (your address)
 * Contact Section
   * h3 (e.g. "Contact Info")
-  * Physical Address (with Google Maps link)
-  * Email Address
-  * Phone Number
+  * Physical Address (with Google Maps link) (Also change in Topinfo)
+  * Email Address (Also change in Topinfo)
+  * Phone Number (Also change in Topinfo)
   * Background Color (if dark, change font colors to light colors)
   * Social Media Site Link Adresses
   * (Turn off ununsed Links by adding 'off' to class list)
